@@ -1,0 +1,73 @@
+.home-cart {
+    width: 75.3333%;
+    
+    border: 1px solid #E5E7EB;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    background-color: #58d38f;
+    margin: 0.625rem 0.625rem 0.625rem 0;
+  }
+  
+  .home-cart .title {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  
+  .home-cart .description {
+    font-size: 0.875rem;
+    color: black;
+  }
+  
+  .home-cart .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .home-cart .info .user-date {
+    font-size: 0.75rem;
+    color: #6B7280;
+  }
+  
+  .home-cart .icons {
+
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.like{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+  .home-cart .icons .delete-icon,
+  .home-cart .icons .update-icon {
+    cursor: pointer;
+  }
+  
+
+.commotinput{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.childcommotinput{
+  background: white;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  border-radius: 5px ;
+  margin-top: 15px;
+
+}
+
+.commotinput input{
+  width: 87%;
+  outline: none;
+  border: none;
+}

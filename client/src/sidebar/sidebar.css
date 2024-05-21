@@ -1,0 +1,23 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px; 
+    background-color: #38a169; 
+    color: #fff; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.controllers{
+    height: 400px;
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+}

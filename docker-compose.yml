@@ -1,0 +1,25 @@
+version: '3'
+services:
+  express:
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+
+  react:
+    build: 
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
